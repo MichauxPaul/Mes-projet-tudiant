@@ -1,0 +1,238 @@
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+body {
+    font-family: arial;
+    color: #ee0;
+    background-color: #333;
+}
+
+h1 {
+    color:#cc1d1d;
+    text-align: center;
+}
+
+p.boutique {
+    color:#ee0;
+}
+
+nav {
+
+
+    /* Les 2 enfants UL seront positionnés en flex, premier "à gauche", le second "à droite" */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 60px;
+
+    align-items: stretch;
+
+}
+
+nav ul {
+    margin: auto;
+    padding: 0px;
+
+    list-style-type: none;
+
+    /* Encore du flex pour les li de chaque ul */
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li.logo img {
+    vertical-align: middle;
+}
+
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul.items li:hover {
+    background: linear-gradient(#666666, #000000);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #cc1d1d;
+}
+
+nav li:hover a {
+    color: #ee0;
+}
+
+
+
+footer {
+    background-color: #5e5757;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+footer ol {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal des items */
+    justify-content: center; /* Centrage horizontal */
+    list-style: none; /* Retirer les puces ou numéros */
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+  
+  
+footer li {
+    margin: 5px 0; /* Espacement entre les items */
+}
+
+.containeur {
+    background-color: #8d1010;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boutique {
+    width: 300px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px;
+}
+
+.image {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+div.modalDialog {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+div.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+div.modalDialog > div {
+    width: 700px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 200px auto;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background: linear-gradient(black, black);
+}
+
+
+a.close {
+    background: #666666;
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right : -6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    top: -10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+a.close:hover{
+    background: #143ae0;
+}
+
+label,p {
+    color: #fff;
+}
+
+button {
+    position : relative ;
+    
+    background-color:#8d1010 ;
+    color : #fff ;
+    border:none ;
+    border-radius:10px ;
+}
+
+button:hover{
+    background-color: gold;
+}
+
+.blanc{
+    color: #fff;
+}
+
+.rouge{
+    color: #ff2525;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+   
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+}
+   
+label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+   
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+   
+input:focus {
+    background: black;
+}
+   
+input, textarea {
+    width: 249px;
+    display: inline-block;
+    background: #000000;
+}
+   
+textarea {
+    height: 100px;
+}
+   
+select {
+    width: 254px;
+}
+   
+input[type=submit] {
+    width: 150px;
+    padding: 10px;
+}

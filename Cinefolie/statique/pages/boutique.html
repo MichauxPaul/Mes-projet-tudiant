@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/boutique.css">
+    <title>Boutique</title>
+    <meta name="author" content="Lilou Toussaint-Erraes/Paul Michaux" />
+    <meta name="keywords" content="boutique, acheter, t-shirts, tasse, produits dérivés, merch, pull, sweat" />
+    <meta name="description" content="Vous pouvez acheter tout plein de produits dérivés ici ! Nous avons évidemment les licenses pour vendre tous nos produits (on est pas des voleurs hehe) !" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="list-style-type:none;">
+                <li><a href="../index.html">News</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="anecdote.html">Anecdotes</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+            </ul>
+        </nav>
+        <h1>Boutique</h1>
+        </header>
+    
+    
+        <div class="containeur">
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/tshirtstarwarsun.webp" alt="T-Shirt Star War"></div>
+                <h1>T-Shirt Star Wars avec un vaisseau spaciale</h1>
+                <p>34,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+            
+            <div id="ouvreModale1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Fermer" class="close">x</a>
+                    <p class="rouge">L'article a été ajouté à votre panier</p>
+                </div>
+                <a href="#close" title="Close" class="close">x</a>
+            </div>
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/bonnetcapitainamerica.jpg" alt="Bonnet noir avec logo Capitaine America"></div>
+                <h1>Bonnet noir avec logo Capitaine America</h1>
+                <p>19,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+    
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/tshirtdeadpool.webp" alt="T-Shirt Dead Pool"></div>
+                <h1>T-Shirt Dead Pool sous licence officiel</h1>
+                <p>49,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/tshirtjurassicpark.jpg" alt="T-Shirt Jurassic Park avec logo stylisé"></div>
+                <h1>T-Shirt Jurassic Park avec logo stylisé sous licence officiel</h1>
+                <p>49,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/tshirtgroot.jpg" alt="T-Shirt Groot des Gardiens de la galaxie"></div>
+                <h1>T-Shirt Groot des Gardiens de la galaxie sous licence officiel</h1>
+                <p>49,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/posterghosbustersr.jpg" alt="Poster SOS Fantome"></div>
+                <h1>Poster SOS Fantome sous licence officiel</h1>
+                <p>8,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/t-shirthommeghostbusters.jpg" alt="T-Shirt noir SOS Fantome avec logo"></div>
+                <h1>T-Shirt noir SOS Fantome avec logo sous licence officiel</h1>
+                <p>49,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/pinsjurassicpark.jpg" alt="Pins logo Jurassic Park"></div>
+                <h1>Pins logo Jurassic Park sous licence officiel</h1>
+                <p>5,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/posterstarwarsriseofskywalker.jpg" alt="Poster Star Wars IX Rise of Skywalker"></div>
+                <h1>Poster Star Wars IX Rise of Skywalker sous licence officiel</h1>
+                <p>8,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+
+            <div class="boutique">
+                <div class="image"><img src="../medias/contenu/tshirtsuperman.jpg" alt="T-Shirt bleu Superman avec logo"></div>
+                <h1>T-Shirt bleu Superman avec logo sous licence officiel</h1>
+                <p>49,99 €</p>
+                <a href="#ouvreModale1"><button href="#ouvreModale1">Ajouter au panier</button></a>
+            </div>
+        </div>
+
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Création du compte</legend>
+                <label for="nom">Nom <em>*</em></label>
+                <input id="nom" placeholder="Tartempion"  required=""><br>
+            
+                <label for="prenom">Prénom <em>*</em></label>
+                <input id="prenom" placeholder="Evie" required=""><br>
+            
+                <label for="email">Adresse e-mail <em>*</em></label>
+                <input id="email" type="email" placeholder="prenom.nom@orange.fr" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@orange.fr"><br>
+            
+                <label for="motdepasse">Mot de passe <em>*</em></label>
+                <input id="motdepasse" type="password"  required=""><br>
+            </fieldset>
+            
+            
+            <p><em>*</em> = champs obligatoire</p>
+            <button type="submit">Envoyer</button>
+        </form>
+          
+        <footer>
+            <ol style="list-style-type:none;">
+                <li><a class="blanc" href="cgu.html">CGU</a></li>
+                <li><a class="blanc" href="politiquedeconfidentialite.html">Politique de confidentialité</a></li>
+                <li><a class="blanc" href="license.html">License</a></li>
+                <li><a class="blanc" href="#">Readme</a></li>
+            </ol>
+            <p>Page faite par Paul Michaux/Lilou Toussaint-Erraes</p>
+        </footer>
+</body>
+</html>
