@@ -1,0 +1,40 @@
+{
+    "titre" : "Les Tuche",
+    "DateSortie" : "01/07/2011",
+    "Type" : "Film",
+    "Genre" : ["comédie"],
+    "Duree" : 95,
+    "Realisateur" : "Olivier Baroux",
+    "Disribution" : [
+        {
+            "NomAct" :"Olivier Baroux", 
+            "Role" : "Monnier"
+        },
+        {
+            "NomAct" :"Jean-Paul Rouve", 
+            "Role" :"Jeff Tuche" 
+        },
+        {
+            "NomAct" :"Isabelle Nanty", 
+            "Role" : "Caty Tuche"
+        },
+        {
+            "NomAct" :"Théo Fernandez", 
+            "Role" : "Donald Tuche" 
+        },
+        {
+            "NomAct" :"Pierre Lottin", 
+            "Role" : "Wilfried Tuche"
+        },
+        {
+            "NomAct" :"Claire Nadeau", 
+            "Role" : "Mamie Suze"
+        },
+        {
+            "NomAct" :"Sarah Stern", 
+            "Role" : "Stéphanie Tuche"
+        }],
+    "Description" : "Raconte l'histoire d'une famille française ordinaire qui a gagné 100 millions d'euros à une lotterie",
+    "avis" : "Les Tuche est un très bon film de comédie française qui est devenu un classique du genre. Si vous cherchez à passer du bon temps en famille ou rigoler, je vous conseille ce film indémodable",
+    "Note" : 19
+}

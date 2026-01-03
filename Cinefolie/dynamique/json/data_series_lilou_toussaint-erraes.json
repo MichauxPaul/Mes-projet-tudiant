@@ -1,0 +1,140 @@
+[
+    {
+        "titre" : "Destiny",
+        "dateDiffusion" : "14/07/2023-25/06/2024",
+        "type" : "série",
+        "genre" : "suspense",
+        "duréeMoyenneEpisodes" : "40-45 minutes",
+        "realisateur" : "Homer Miriam",
+        "nbrSaisons" : 2,
+        "episodesSaison1" : [
+            {
+                "nomEp1" : "See What I Can't See",
+                "duréeEp1" : 44
+            },
+            {
+                "nomEp2" : "In the Beast's Lair",
+                "duréeEp2" : 40
+            },
+            {
+                "nomEp3" : "Dreams of Heaven or Hell ?",
+                "duréeEp3" : 43
+            },
+            {
+                "nomEp4" : "He Who is Watching",
+                "duréeEp4" : 44
+            },
+            {
+                "nomEp5" : "Crown of Hell",
+                "duréeEp5" : 42
+            },
+            {
+                "nomEp6" : "Nephilim",
+                "duréeEp6" : 41
+            },
+            {
+                "nomEp7" : "Exorcist",
+                "duréeEp7" : 45
+            },
+            {
+                "nomEp8" : "Just a puppet ?",
+                "duréeEp8" : 44
+            },
+            {
+                "nomEp9" : "Pride",
+                "duréeEp9" : 43
+            },
+            {
+                "nomEp10" : "Let There Be Light",
+                "duréeEp10" : 40
+            },
+            {
+                "nomEp11" : "The Serpent",
+                "duréeEp11" : 42
+            },
+            {
+                "nomEp12" : "The Dance of the Archangel",
+                "duréeEp12" : 41
+            },
+            {
+                "nomEp13" : "The Silent Voices",
+                "duréeEp13" : 45
+            },
+            {
+                "nomEp14" : "Heaven's cries",
+                "duréeEp14" : 40
+            },
+            {
+                "nomEp15" : "God Is Dead",
+                "duréeEp15" : 43
+            },
+            {
+                "nomEp16" : "Trapped",
+                "duréeEp16" : 44
+            },
+            {
+                "nomEp17" : "Hollow Soul",
+                "duréeEp17" : 42
+            },
+            {
+                "nomEp18" : "Dark Destiny",
+                "duréeEp18" : 45
+            }
+
+        ],
+        "episodesSaison2" : [
+            {
+                "nomEp1" : "The Ghost in the Window",
+                "duréeEp1" : 44
+            },
+            {
+                "nomEp2" : "Sea of Doubts",
+                "duréeEp2" : 41
+            },
+            {
+                "nomEp3" : "Sanctuary",
+                "duréeEp3" : 45
+            },
+            {
+                "nomEp4" : "Let There Be Darkness",
+                "duréeEp4" : 40
+            },
+            {
+                "nomEp5" : "Bloody Rites",
+                "duréeEp5" : 42
+            },
+            {
+                "nomEp6" : "Oh Death",
+                "duréeEp6" : 43
+            },
+            {
+                "nomEp7" : "After My Own Shadow",
+                "duréeEp7" : 44
+            },
+            {
+                "nomEp8" : "Devil, Devil",
+                "duréeEp8" : 41
+            },
+            {
+                "nomEp9" : "The Faceless Souls",
+                "duréeEp9" : 45
+            },
+            {
+                "nomEp10" : "A Blade Through the Heart",
+                "duréeEp10" : 44
+            },
+            {
+                "nomEp11" : "Heaven and Hell",
+                "duréeEp11" : 42
+            },
+            {
+                "nomEp12" : "Destiny", 
+                "duréeEp12" : 45
+            }
+        ],
+        "Description" : "Destiny raconte l'histoire d'un jeune prêtre possédant un don nommé Thomas qui est chargé de s'occuper de cas requérant des compétences d'exorciste. Cependant, son don va lui attirer l'attention de grandes entités, parfois bienvaillantes, parfois bien malvaillantes.",
+        "Avis" : "Mon avis sur Destiny ? Cette série est incroyable. Tout simplement. Le personnage de Thomas est très attachant et sans vous spoiler, deux autres personnages qui apparaissent un peu plus tard dans la série sont...Particuliers mais incroyables. Je recommande vivement cette série à n'importe qui (sauf aux croyants hehe). Mon seul petit problème avec cette série, c'est qu'elle prend pas mal de temps avant de véritablement commencer. Mais sinon, elle est géniale quand elle s'y met vraiment !",
+        "Note" : 18
+        
+    }
+]

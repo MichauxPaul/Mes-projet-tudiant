@@ -1,0 +1,100 @@
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+body {
+    font-family: arial;
+    color: white;
+    background-color: #333;
+}
+
+h1 {
+    color:#cc1d1d;
+    text-align: center;
+}
+
+nav {
+
+
+    /* Les 2 enfants UL seront positionnés en flex, premier "à gauche", le second "à droite" */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 60px;
+
+    align-items: stretch;
+
+}
+
+nav ul {
+    margin: auto;
+    padding: 0px;
+
+    list-style-type: none;
+
+    /* Encore du flex pour les li de chaque ul */
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li.logo img {
+    vertical-align: middle;
+}
+
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul.items li:hover {
+    background: linear-gradient(#666666, #000000);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #cc1d1d;
+}
+
+nav li:hover a {
+    color: #ee0;
+}
+
+
+
+footer {
+    background-color: #5e5757;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.blanc{
+    color: #fff;
+}
+
+
+footer ol {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal des items */
+    justify-content: center; /* Centrage horizontal */
+    list-style: none; /* Retirer les puces ou numéros */
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+  
+  
+footer li {
+    margin: 5px 0; /* Espacement entre les items */
+}
+
+img {
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}

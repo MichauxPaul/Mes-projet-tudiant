@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/boutique.css">
+    <title>Boutique</title>
+    <meta name="author" content="Lilou Toussaint-Erraes/Paul Michaux" />
+    <meta name="keywords" content="boutique, acheter, t-shirts, tasse, produits dérivés, merch, pull, sweat" />
+    <meta name="description" content="Vous pouvez acheter tout plein de produits dérivés ici ! Nous avons évidemment les licenses pour vendre tous nos produits (on est pas des voleurs hehe) !" />
+    <link rel="icon" type="image/jpeg" href="../medias/interface/FaviconSiteCinefolies.jpg">
+    <script src="../js/dataBoutique.js"></script>
+    
+</head>
+<body onload="afficheBoutique('')">
+    <header>
+        <nav>
+            <ul style="list-style-type:none;">
+                <li><a href="../index.html">News</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="anecdote.html">Anecdotes</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+            </ul>
+        </nav>
+        <h1>Boutique</h1>
+    </header>
+    <div class="button">
+        <button onclick="afficheBoutique('Tout')">Tout</button>
+        <button onclick="afficheBoutique('T-shirts')">T-shirts</button>
+        <button onclick="afficheBoutique('Bonnet')">Bonnet</button>
+        <button onclick="afficheBoutique('Poster')">Poster</button>
+        <button onclick="afficheBoutique('Pins')">Pins</button>
+    </div>
+    
+    <div class="containeur" id = "containeur1">
+            
+        
+    </div>
+    
+
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Création du compte</legend>
+            <label for="nom">Nom <em>*</em></label>
+            <input id="nom" placeholder="Tartempion"  required=""><br>
+            
+            <label for="prenom">Prénom <em>*</em></label>
+            <input id="prenom" placeholder="Evie" required=""><br>
+            
+            <label for="email">Adresse e-mail <em>*</em></label>
+            <input id="email" type="email" placeholder="prenom.nom@orange.fr" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@orange.fr"><br>
+            
+            <label for="motdepasse">Mot de passe <em>*</em></label>
+            <input id="motdepasse" type="password"  required=""><br>
+        </fieldset>
+            
+            
+        <p><em>*</em> = champs obligatoire</p>
+        <button type="submit">Envoyer</button>
+    </form>
+          
+    <footer>
+        <ol style="list-style-type:none;">
+            <li><a class="blanc" href="cgu.html">CGU</a></li>
+            <li><a class="blanc" href="politiquedeconfidentialite.html">Politique de confidentialité</a></li>
+            <li><a class="blanc" href="license.html">Licence</a></li>
+            <li><a class="blanc" href="../../readme/export/Readme.html">Readme</a></li>
+            </ol>
+            <p>Page faite par Paul Michaux/Lilou Toussaint-Erraes</p>
+    </footer>
+    
+    <script src="../js/controleurBoutique.js"></script>
+</body>
+</html>
