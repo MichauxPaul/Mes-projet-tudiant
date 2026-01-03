@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Spicy_Sale";
+  src: url("@/font/Spicy_Sale.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-title: "Spicy_Sale";
+  --font-content: "Josefin Sans";
+}
