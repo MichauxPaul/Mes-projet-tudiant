@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <title>Paul Michaux TP1 DevWeb</title>
+</head>
+
+<body class="font-carter_one">
+  <header class="h-32 flex justify-between items-center bg-blue-400 p-6">
+    <h1 class="text-2xl font-bungee text-orange-500 cursor-pointer transform transition duration-300 hover:scale-110 ">
+      Collectif Metissé</h1>
+    <nav>
+      <ul class="flex gap-2 md:gap-5 text-yellow-500 ">
+        <li>
+          <a href="#apropos" class="hover:text-orange-500">À propos</a>
+        </li>
+        <li>
+          <a href="#discographie" class="hover:text-orange-500">Discographie</a>
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-orange-500">Contacts</a>
+        </li>
+        <li>
+          <a href="#evenement" class="hover:text-orange-500">Evènements</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+  <main>
+    <section   class=" relative bg-[url(./image/super_fiesta.png)] bg-cover bg-center  h-screen flex items-center justify-center ">
+      <div class="flex flex-col items-center ">
+        <h1 class="text-orange-500 text-5xl">
+          Super Fiesta le nouvelle album bientôt disponible
+        </h1>
+        <p class="text-yellow-500 text-xl"> Inclue les hits : Vive les mariés, J't'emmène au vent et Vamos al kuduro</p>
+      </div>
+      </div>
+
+    </section>
+
+    <section id="apropos" class="bg-gradient-to-br from-newyellow to-neworange p-6">
+      <h2 class="text-2xl mb-6 text-center text-blue-400">À propos</h2>
+
+      <div class="flex flex-col gap-6 md:flex-row md:justify-center">
+
+        <!-- Card 1 -->
+        <div class="max-w-sm rounded-lg bg-gradient-to-br from-blue-300 to-orange-400">
+          <a href="#">
+            <img class="rounded-t-lg transform transition duration-300 hover:rotate-6"
+              src="image/groupe_collectif_metisse.webp" alt="Collectif Metissé" />
+          </a>
+          <div class="p-5">
+            <h5 class="cursor-pointer mb-2 text-2xl text-orange-800 hover:text-yellow-900">Les membres du groupe</h5>
+            <p class="mb-3 text-blue-700">Le groupe est composé de Soma Riba le fondateur du groupe, ainsi que Nadia
+              Lahcene, Yannick Cotte, DJ Lionnel, Igor, Amélie Wade et Lyta</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="max-w-sm rounded-lg bg-gradient-to-br from-blue-300 to-orange-400 ">
+          <a href="#">
+            <img class="rounded-t-lg transform transition duration-300 hover:rotate-6" src="image/devanture_olympia.jpg"
+              alt="Collectif Metissé" />
+          </a>
+          <div class="p-5">
+            <h5 class="cursor-pointer mb-2 text-2xl text-orange-800 hover:text-yellow-900">Anecdote</h5>
+            <p class="mb-3 text-blue-700">Le groupe fait quasiment que des festivals à travers la France mais tous les 5
+              ans il se produit à l'Olympia à Paris</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="max-w-sm rounded-lg bg-gradient-to-br from-blue-300 to-orange-400">
+          <a href="#">
+            <img class="rounded-t-lg transform transition duration-300 hover:rotate-6" src="image/soma_riba.jpg"
+              alt="Collectif Metissé" />
+          </a>
+          <div class="p-5">
+            <h5 class=" cursor-pointer mb-2 text-2xl text-orange-800 hover:text-yellow-800">Soma Riba en mode Superman
+            </h5>
+            <p class="mb-3 text-blue-700">Soma Riba s'habille toujous en superman pour prover qu'il est le leader du
+              groupe et pour se donner un image différente de tous les autres membres</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="gallerie" class="bg-amber-400 p-3">
+      <h2 class="text-2xl mb-5 text-center text-blue-400">La discographie</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100"
+            src="image/collectif_fiesta_party.png" alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/danza_latina.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/destination_ete.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/fan_des_annee_80.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/mega_fiesta.png" alt="">
+        </li>
+        <li><img class="scale-90 transform transition duration-300 hover:scale-100" src="image/rdv_soleil.png" alt="">
+        </li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/super_fiesta.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/sur_la_route.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/ya_plus_ka_danser.png"
+            alt=""></li>
+        <li> <img class="scale-90 transform transition duration-300 hover:scale-100" src="image/olympia_album.png"
+            alt=""></li>
+      </ul>
+    </section>
+
+    <section id="evenement"
+      class="bg-gradient-to-br from-red-500 to-orange-400 flex flex-col justify-center items-center p-4">
+      <h2 class="text-2xl mb-5 text-blue-400">Les prochaines apparition du groupe</h2>
+      <p class="text-white">Actuellement aucun évènement est prévu mais restez informer ! </p>
+    </section>
+
+    <section id="form"
+      class="bg-gradient-to-r from-indigo-500 via-red-500 to-neworange flex flex-col justify-center items-center p-4 gap-5">
+      <h2 class="text-white p-3 text-2xl text-center">Pour ne rien manquer des actualités du groupe n'hésitez pas à vous
+        inscrire à notre infolettre dès maintenant</h2>
+
+
+      <form >
+        <div class="mb-5">
+          <label for="email" class=" mb-2  text-newyellow">Votre adresse email</label>
+          <input type="email" id="email" class=" form-input " placeholder="exemple@email.com" required />
+        </div>
+        <div class="mb-5">
+          <label for="password" class=" mb-2  text-newyellow">Votre mot de passe </label>
+          <input type="password" id="password" class="form-input " required />
+        </div>
+        <button type="submit"
+          class="text-white border-2 border-yellow-500 transform transition duration-300 hover:bg-yellow-500 rounded-lg p-2 m-2">Envoyer</button>
+      </form>
+
+    </section>
+
+  </main>
+<footer class="bg-orange-500 text-center text-white"> &copy; 2025 - Paul Michaux</footer>
+</body>
+
+</html>

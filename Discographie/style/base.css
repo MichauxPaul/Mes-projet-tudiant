@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: Carter One;
+  src: url(../font/CarterOne-Regular.ttf);
+}
+
+@theme {
+  --font-carter_one: Carter One, "sans-serif";
+  --font-bungee : Bungee Spice, sans-serif;
+  --color-neworange : #FA8300;
+  --color-newyellow : #FAC602;
+}
+
+.form-input{
+  @apply text-sm block  border-3 border-yellow-500 rounded-md p-2 placeholder-yellow-500;
+}
+
+
+
+    
